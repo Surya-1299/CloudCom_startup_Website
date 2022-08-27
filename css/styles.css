@@ -1,0 +1,139 @@
+body{
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Kanit', sans-serif;
+    line-height: 1.5;
+}
+.coloured-background{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-background{
+    background-color:#fff;
+}
+/* Title Section */
+#title{
+    text-align: left;
+}
+.big-heading{
+    font-size: 3rem; 
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+/* Navigation Bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    font-family: 'Kanit';
+    padding:0 18px;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: 600;
+    font-size: 40px;
+}
+/* Image Properties */
+.iphone {
+    width: 22.9%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+    /* -webkit-transform:rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg); */
+}
+ /* Download Buttons */
+ .db{
+    margin:5% 3% 5% 0;
+ }
+ /* Below title section upto testimonial section*/
+ #features{
+    padding: 3% 15% 7%;
+    position: relative;
+    z-index: 1;
+ }
+.features-text{
+    font-size: 1.2rem;      
+    font-weight: 900;
+}
+.feature-box{
+    
+    padding: 5%;
+}
+.symbol{
+    color:#ef8172;
+    margin-bottom:1rem;
+}
+.symbol:hover{
+    color: #ff4c68;
+}
+.p-features{
+    color: #8f8f8f;
+}
+/* Testimonial section */
+.testimonial-text{
+    font-size: 3rem;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+.testimonial-image{
+    width:13%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/* Press section */
+#press{
+    padding-bottom: 3%;
+}
+.pricing-text{
+    font-size: 3rem; 
+}
+.pricing-table-headings{
+    font-size: 1.2rem;      
+    font-weight: 900;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* Pricing Section */
+#pricing{
+    padding:100px;  
+}
+.pricing-section{
+    padding: 3% 2%;
+}
+/* cta section */
+#cta{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.cta_content{
+    font-family: 'Kanit', sans-serif;
+    font-size: 4rem;
+}
+#footer{
+    font-family: 'Kanit', sans-serif;
+    
+    padding: 7% 15%;
+}
+.social-icon{
+padding: 20px 10px;
+}
+
+@media (max-width:990px){
+  .iphone{
+        position:static;
+        transform: rotate(0deg);
+        width: 50%;
+  }
+    #title{
+        text-align: center;
+  }
+}
